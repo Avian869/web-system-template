@@ -5,13 +5,13 @@
 
 ## Entity definition
 - Entity – Hero (
-- id(number), 
+- id(number 1 - 129), 
 - name(<50 symbols), 
-- image, 
-- icon, 
+- image(string), 
+- icon(string), 
 - matchup statistics(
-- hero id(number),
-- winrate(number))
+- hero id(number 1 - 129),
+- winrate(number 0 - 100))
 
 ## API definition
 - System will use methods
