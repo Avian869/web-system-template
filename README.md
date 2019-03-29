@@ -17,11 +17,11 @@
 - System will use methods
 - GET api/heroStats - gets all stats of all dota 2 heroes
 - GET api/heroes/:id/matchups
-- GET api/heroes/hero_id/matchups - gets recorded matchups for hero with given ID
+- GET api/heroes/:id/matchups - gets recorded matchups for hero with given ID
     - 400 - {error: 'invalid hero_id' }
-- POSt /teams/hero_id - puts selected hero in team
+- POSt /teams/:id - puts selected hero in team
     - 400 - {error: 'invalid hero_id' }
-- DELETE /teams/hero_id - delete a given hero from team
+- DELETE /teams/:id - delete a given hero from team
     - 400 - {error: 'invalid hero_id' }
 
 ## UI definition
