@@ -1,5 +1,4 @@
 # Dota 2 match prediction system
-- [x] Replace "WEB system" with your system name
 
 ## Description
 - The system shows heroes, there stats, matchups, bought items, also allows users to make matchup suggestions. The system also allows you to build teams and get there odds of winning against one another.
