@@ -9,7 +9,9 @@
 - name(<50 symbols), 
 - image, 
 - icon, 
-- statistics(multiple fields of type number))
+- matchup statistics(
+- hero id(number),
+- winrate(number))
 
 ## API definition
 - System will use methods
