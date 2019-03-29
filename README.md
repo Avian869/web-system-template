@@ -7,8 +7,8 @@
 - Entity – Hero (
 - id(number 1 - 129), 
 - name(<50 symbols), 
-- image(string), 
-- icon(string), 
+- image(URL), 
+- icon(URL), 
 - matchup statistics(
 - hero id(number 1 - 129),
 - winrate(number 0 - 100))
