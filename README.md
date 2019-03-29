@@ -16,6 +16,7 @@
 ## API definition
 - System will use methods
 - GET api/heroStats - gets all stats of all dota 2 heroes
+- GET api/heroes/:id/matchups
 - GET api/heroes/hero_id/matchups - gets recorded matchups for hero with given ID
     - 400 - {error: 'invalid hero_id' }
 - POSt /teams/hero_id - puts selected hero in team
