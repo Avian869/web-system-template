@@ -19,7 +19,7 @@
 - GET api/heroes/:id/matchups
 - GET api/heroes/:id/matchups - gets recorded matchups for hero with given ID
     - 400 - {error: 'invalid hero_id' }
-- POSt /teams/:id - puts selected hero in team
+- POST /teams/:id - puts selected hero in team
     - 400 - {error: 'invalid hero_id' }
 - DELETE /teams/:id - delete a given hero from team
     - 400 - {error: 'invalid hero_id' }
